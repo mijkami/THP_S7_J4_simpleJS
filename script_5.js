@@ -22,7 +22,7 @@ moneys.forEach(moneysContent => {
     cryptoMaxName = moneysContent;
   }
 })
-console.log("1 - La devise avec la plus grosse valeur est le " + cryptoMaxName + " valant : $" + max + ".");
+console.log("1 - La devise avec la plus grosse valeur est le '" + cryptoMaxName + "' valant : $" + max + ".");
 
 
 // La ou les crypto qui ont la plus petite valeur ?
@@ -34,7 +34,7 @@ moneys.forEach(moneysContent => {
     cryptoMinName = moneysContent;
   }
 })
-console.log("2 - La devise avec la plus petite valeur est le " + cryptoMinName + " valant : $" + min + ".");
+console.log("2 - La devise avec la plus petite valeur est le '" + cryptoMinName + "' valant : $" + min + ".");
 
 
 // Le nombre de crypto contenant le mot "coin" ?
@@ -70,4 +70,4 @@ moneys.forEach(moneysContent => {
     cryptoMax6000Name = moneysContent;
   }
 })
-console.log("5 - La devise la plus chère parmis celles inférieures à 6000 est le " + cryptoMax6000Name + " valant : $" + max6000 + ".");
+console.log("5 - La devise la plus chère parmis celles inférieures à 6000 est le '" + cryptoMax6000Name + "' valant : $" + max6000 + ".");
