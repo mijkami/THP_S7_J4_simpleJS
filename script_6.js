@@ -41,7 +41,7 @@ entrepreneurs.forEach(entrepreneur => {
 
 
 // Trie les inventeurs par ordre alphabétique du nom de famille
-console.log("4 - Tri par ordre alphabétique des familles :");
+console.log("4 - Tri par ordre alphabétique des familles (cliquez pour agrandir):");
 console.log(entrepreneurs.sort(function (a, b) {
   return a.last.localeCompare(b.last);
   })
