@@ -61,7 +61,7 @@ moneys.forEach(moneysContent => {
 console.log("4 - Il y a " + below6000 + " devises dont le cours est inférieur à 6000.");
 
 
-// La devise la plus chère parmi celles dont le cours est inférieur à 6000
+// La devise la plus chère parmi celles dont le cours est inférieur à 6000 ?
 let max6000 = 0;
 let cryptoMax6000Name;
 moneys.forEach(moneysContent => {
